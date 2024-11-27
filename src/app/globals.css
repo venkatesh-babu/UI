@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: jost;
+}
+.flex {
+  display: flex !important;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-horizontal-space-between {
+  justify-content: space-between;
+}
+
+.flex-horizontal-space-even {
+  justify-content: space-evenly;
+}
+
+.flex-horizontal-space-center {
+  justify-content: center;
+}
+
+.flex-horizontal-end {
+  justify-content: end;
+}
+
+.flex-vertical-space-between {
+  align-items: space-between;
+}
+
+.flex-vertical-space-center {
+  align-items: center;
+}
+
+.flex-vertical-end {
+  align-items: end;
+}
+
+.g1 {
+  gap: 16px;
+}
+
+.g2 {
+  gap: 48px;
+}
+
+.g3 {
+  gap: 64px;
+}
+
+.g4 {
+  gap: 54px 172px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #17414f;
+  background-clip: padding-box;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+  background-color: #e2f5fb;
+}
+.reveal {
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 1s ease;
+}
+.active {
+  transform: translateY(0px);
+  opacity: 1;
+  position: relative;
+}
