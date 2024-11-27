@@ -27,11 +27,11 @@ const BlogComponent = dynamic(() => import("../BlogComponent/page"), {
 export default function Home() {
   // Define the reveal function
   const reveal = () => {
-    let reveals = document.querySelectorAll('.reveal');
+    const reveals = document.querySelectorAll('.reveal');
     for (let i = 0; i < reveals.length; i++) {
-      let windowHeight = window.innerHeight;
-      let revealTop = reveals[i].getBoundingClientRect().top;
-      let revealPoint = 50;
+      const windowHeight = window.innerHeight;
+      const revealTop = reveals[i].getBoundingClientRect().top;
+      const revealPoint = 50;
       if (revealTop < windowHeight - revealPoint) {
         reveals[i].classList.add('active');
       } else {
