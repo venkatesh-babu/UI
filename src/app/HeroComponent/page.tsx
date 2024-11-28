@@ -57,7 +57,7 @@ export default function HeroComponent() {
         </div>
       </div>
       <div className={`${styles.card_container}`}>
-        <div className={`${styles.row1} flex flex-horizontal-space-even flex-wrap g4`}>
+        <div className={`${styles.row1} ${styles.gap} flex flex-horizontal-space-even flex-wrap `}>
           <div className={styles.card}>
             <div className={styles.image_container3}>
               <img src="/Assets/Images/download (2).png" alt="image"/>
@@ -95,8 +95,8 @@ export default function HeroComponent() {
               </p>
             </div>
           </div>
-          </div>
-          <div className={`flex flex-horizontal-space-even flex-wrap g4`}>
+          {/* </div> */}
+          {/* <div className={`flex flex-horizontal-space-even flex-wrap g4`}> */}
 
           <div className={styles.card}>
             <div className={styles.image_container3}>

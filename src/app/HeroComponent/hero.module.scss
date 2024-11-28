@@ -111,8 +111,10 @@
   }
 }
 .row1 {
-  margin-bottom: 60px;
   margin-top: -96px;
+}
+.gap {
+  gap: 54px 172px;
 }
 @media screen and (max-width: 1190px) {
   .card {
@@ -147,7 +149,7 @@
   .w30 {
     width: 33% !important;
   }
-  .g4 {
+  .gap {
     gap: 0px 30px !important;
   }
 }
@@ -157,6 +159,7 @@
     left: 76px !important;
     bottom: -265px !important;
   }
+
   .image_container3 {
     width: 50% !important;
   }
@@ -176,7 +179,7 @@
     width: 30% !important;
   }
   .card {
-    width: 40% !important;
+    width: 30% !important;
     p {
       font-size: 14px !important;
     }
@@ -187,14 +190,8 @@
   .title {
     font-size: 3rem !important;
   }
-}
-@media screen and (max-width: 670px) {
-  .card {
-    width: 55% !important;
-  }
-  .title {
-    font-size: 4rem !important;
-    line-height: 1 !important;
+  .gap {
+    gap: 54px 8px !important;
   }
 }
 @media screen and (max-width: 780px) {
@@ -202,10 +199,13 @@
     font-size: 26px !important;
   }
   .image_container3 {
-    width: 24% !important;
+    width: 33% !important;
+  }
+  .gap {
+    gap: 54px 8px !important;
   }
   .card {
-    width: 70% !important;
+    width: 35% !important;
   }
   .hero_container {
     flex-direction: column !important;
@@ -233,15 +233,36 @@
   }
 }
 
-@media screen and (max-width: 500px) {
-  .card_title {
-    font-size: 26px !important;
+@media screen and (max-width: 670px) {
+  .title {
+    font-size: 4rem !important;
+    line-height: 1 !important;
+    margin-top: 0px !important;
   }
-  .image_container3 {
-    width: 35% !important;
+  .container {
+    padding-bottom: 17px !important;
+  }
+  .circle_container {
+    margin-top: 28px;
+  }
+  .row1 {
+    gap: 40px 0px !important;
+  }
+  .gap {
+    gap: 40px 0px !important;
   }
   .card {
-    width: 70% !important;
+    width: 44% !important;
+    p {
+      font-size: 12px !important;
+    }
+  }
+  .image_container3 {
+    width: 39% !important;
+  }
+
+  .card_title {
+    font-size: 20px !important;
   }
   .hero_container {
     flex-direction: column !important;
@@ -259,5 +280,22 @@
   }
   .w30 {
     width: 100% !important;
+  }
+  .container_content {
+    padding: 54px 0px !important;
+  }
+  .row1 {
+    justify-content: space-between !important;
+  }
+}
+@media screen and (max-width: 345px) {
+  .card {
+    width: 100% !important;
+  }
+  .image_container3 {
+    width: 27% !important;
+  }
+  .title {
+    font-size: 3rem !important;
   }
 }
