@@ -96,4 +96,25 @@
       padding: 12px 12px 245px 12px;
     }
   }
+
+  .container {
+    article {
+      padding-top: 12px;
+      height: 320px !important;
+      width: 90% !important;
+      position: relative;
+      p {
+        background-color: #17414f;
+        border-radius: 8px;
+        padding: 21px 12px;
+        position: absolute;
+        bottom: 0px;
+        margin: 0px !important;
+        left: 0;
+        right: 0;
+        font-weight: 500 !important;
+        box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
 }
