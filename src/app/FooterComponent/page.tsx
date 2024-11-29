@@ -28,8 +28,8 @@ export default function FooterComponent() {
               <img src="/Assets/Images/download (6).png" alt="image"/>
             </div>
             <div>
-              <p>Phone Number</p>
-              <p>+974 3118 1843</p>
+              <p>Email Address</p>
+              <p>Elbritchhr@gmail.com</p>
             </div>
           </div>
           <div className={`${styles.card} flex g1`}>
@@ -37,8 +37,8 @@ export default function FooterComponent() {
               <img src="/Assets/Images/download (7).png" alt="image"/>
             </div>
             <div>
-              <p>Phone Number</p>
-              <p>+974 3118 1843</p>
+              <p>Office Location</p>
+              <p>Ambassador Street, Zone 61</p>
             </div>
           </div>
         </div>
